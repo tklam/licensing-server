@@ -48,7 +48,7 @@ Every client application should be given a unique client ID. That means the
 client library has to be built uniquely for each client. The following line in
 <i>CMakeLists.txt</i> should be modified to set the client ID:
  <pre>
- -DCLIENT\_ID="TESTING\_CLIENT"
+ -DCLIENT_ID="TESTING_CLIENT"
  </pre>
 
 ## Donation
